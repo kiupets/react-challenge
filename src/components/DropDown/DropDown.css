@@ -1,0 +1,4 @@
+.drop-down {
+    display: grid;
+    row-gap: 10px;
+}

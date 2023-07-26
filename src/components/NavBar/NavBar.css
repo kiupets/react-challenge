@@ -1,0 +1,24 @@
+.grid-navigation-container {
+    position: absolute;
+    grid-column: 6;
+    grid-row: 1 / span 4;
+    top: 0;
+    left: 0;
+    background-color: rgb(211, 41, 41);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    color: #f6ecec;
+    font-size: 18px;
+}
+
+.grid-nav-item-button {
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+    width: 90%;
+    height: 100%;
+}

@@ -1,0 +1,17 @@
+.main-menu {
+    display: flex;
+    justify-content: flex-start;
+
+    width: 100%;
+
+
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.selected {
+    color: red;
+    border-bottom: 2px solid red;
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('./fonts/your-custom-font.ttf') format('truetype');
+
+}
+
+.title {
+    display: flex;
+    font-size: 40px;
+    font-family: 'Montserrat-Black', sans-serif;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        display: flex;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
