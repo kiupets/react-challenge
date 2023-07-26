@@ -77,3 +77,11 @@
 
     /* height: 30px; */
 }
+
+.order-by-grid {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-column: 5;
+    grid-row: 3;
+}

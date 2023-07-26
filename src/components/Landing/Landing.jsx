@@ -8,6 +8,7 @@ import { NavBar } from "../NavBar/NavBar";
 import { Filter } from "../Filter/Filter";
 import { Title } from "../Title/Title";
 import { MainMenu } from "../../MainMenu/MainMenu";
+import { OrderBy } from "../../OrderBy/OrderBy";
 
 export const Landing = () => {
   const [DropDown, setDropDown] = useState(false);
@@ -22,13 +23,14 @@ export const Landing = () => {
         <div className="navbar-grid">
           <Filter />
         </div>
+        <div className="order-by-grid">
+          <OrderBy />
+        </div>
         <div className="grid_logo">
           <Logo />
         </div>
         <div className="grid-menu">
           <MainMenu />
-          {/* <div>modelos</div>
-          <div>items</div> */}
         </div>
 
         <MenuDropdown onDropClick={onDropDownClick} />

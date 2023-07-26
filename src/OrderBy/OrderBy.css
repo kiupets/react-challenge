@@ -1,0 +1,22 @@
+/* SelectStyles.css */
+
+/* Customize the appearance of the select dropdown arrow */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    border-color: white;
+
+
+
+
+    /* Add some padding to make room for the arrow icon */
+}
+
+/* Styling the select dropdown menu itself */
+select:focus {
+    /* Add any focused state styles here */
+}
+
+/* Additional styling can be applied based on your design needs */
